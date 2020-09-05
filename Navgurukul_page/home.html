@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Navgurukul</title>
+    <link rel="icon" href="https://navgurukul.org/assets/img/favicon.png">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="Css/home.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <nav id="mainNav" class="navbar navbar-expand-sm navbar-default fixed-top navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img class="logoheader" src="https://navgurukul.org/assets/img/logo.png" alt="logonavgurukul">
+            </a>
+            <div class="nav-item dropdown">
+                <a class=" dropdown-toggle text-danger" data-toggle="dropdown" >हिंदी </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" onclick="Change()" href="#">
+                        English
+                    </a>
+                </div>
+            </div>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse "id="collapsibleNavId">
+                <ul class="navbar-nav navbar-item font-weight-bold">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="home.html">विषय<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="partner.html">पार्टनर</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://medium.com/navgurukul" target="_blank">ब्लॉग</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://saral.navgurukul.org/" target="_blank">SARAL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://admissions.navgurukul.org/students" target="_blank">आवेदन</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="alumni.html" target="_blank">भूतपूर्व छात्र</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="volunteer.html" target="_blank">स्वयंसेवक</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hire.html">पारिश्रमिक</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="donate.html">दानस्वरूप्</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">सामान्य प्रश्न</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid m-size slider row mt-5">
+        <div id="carouselId" class="carousel slide" data-ride="carousel">
+            <!-- <ol class="carousel-indicators">
+                <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselId" data-slide-to="1"></li>
+                <li data-target="#carouselId" data-slide-to="2"></li>
+            </ol> -->
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="text-center ">
+                        <a data-fancybox href="https://www.youtube.com/watch?v=dLVT1fJeWHI">
+                            <img class="h-25 w-50 img-fluid" src="https://img.youtube.com/vi/dLVT1fJeWHI/maxresdefault.jpg">
+                            <img class="playicon" src="https://navgurukul.org/assets/img/playicon.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="text-center">
+                        <a data-fancybox href="https://www.youtube.com/watch?v=H7MpjykWV5k">
+                            <img class="h-25 w-50 img-fluid" src="https://img.youtube.com/vi/H7MpjykWV5k/maxresdefault.jpg">
+                            <img class="playicon" src="https://navgurukul.org/assets/img/playicon.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="text-center">
+                        <a data-fancybox href="https://www.youtube.com/watch?v=XJ6hcfkSDkw">
+                            <img class="h-25 w-50 img-fluid" src="https://img.youtube.com/vi/XJ6hcfkSDkw/maxresdefault.jpg">
+                            <img class="playicon" src="https://navgurukul.org/assets/img/playicon.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    
+    <section class="container m-size">
+        <div class="container">
+            <h1 class="text-center text-capitalize pt-5 font-weight-normal">
+                नवगुरुकुल के साथ साझेदारी
+            </h1>
+            <hr class="primary">
+        </div>
+        <div class="text-center large_text" style="opacity: 0.9">
+            <p>
+                नवगुरुकुल कम आय वाले परिवारों के युवाओं को गारंटी वाली नौकरी के साथ सॉफ्टवेयर इंजीनियरिंग में पूरी तरह से वित्त पोषित स्किलिंग कार्यक्रम प्रदान करता है। कार्यक्रम एक वर्ष के लिए है और एक आवासीय पाठ्यक्रम है।<br><br>
+
+                हमारे छात्र देश के विभिन्न हिस्सों से आते हैं और अपने परिवारों और समुदायों में उच्च शिक्षा प्राप्त करने वाले पहले व्यक्ति हैं, जो पहले व्यक्ति द्वारा संचालित आधुनिक कौशल सीखने और आकांक्षात्मक नौकरियां प्राप्त करने वाले व्यक्ति हैं। यह कार्यक्रम और इसके शिक्षाशास्त्र चेंजमेकर्स और स्वतंत्र विचारकों पर केंद्रित हैं जो पेशेवर बनने के बाद अपने स्वयं के समुदायों में परिवर्तन का प्रकाश बन जाएंगे।<br><br>
+
+                जब कोई व्यक्ति अपने सपनों को प्राप्त करने के लिए अपने समुदाय से बाहर निकलता है, तो वह कई लोगों के लिए प्रेरणा बन जाता है। इस प्रकार, नवगुरुकुल में, हम अपने कार्यक्रम को अधिक से अधिक समुदायों तक ले जाने के लिए प्रतिबद्ध हैं।<br><br>
+
+                हमारे साथी हमें ऐसे युवाओं को आकांक्षात्मक करियर तक पहुँच प्रदान करने में मदद करते हैं जो बढ़ना चाहते हैं लेकिन ऐसा करने का कोई मतलब नहीं है। हमारी साझेदारियां हमारे संचालन की रीढ़ हैं।<br><br>
+
+                हमारे साथी हमारे मूल्यों को साझा करते हैं, हमारे साथी हमारे प्रभाव को साझा करते हैं।
+
+            </p>
+        </div>
+    </section>
+
+    <section class="mb-5 m-size">
+        <div class="container-fluid">
+            <h1 class="text-center text-capitalize pt-5 font-weight-normal">
+                मीडिया
+            </h1>
+            <hr class="primary">
+        </div>
+        <div class="container-fluid">
+            <div id="carouselId" class="carousel slide" data-ride="carousel">
+            
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active text-center">
+                        <div>
+                            <img src="https://www.lebal.paris/wp-content/uploads/2018/07/22940-3.jpg" style="height: 74px; width: 200px;">
+                        </div>
+                        <div class="text-center mx-4 mt-2" style="word-break: break-all;">
+                            <h3>
+                                इन स्कूल छोड़ने वालों ने बेहतर जीवन के लिए कोड को क्रैक किया है
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <div>
+                            <img src="https://www.meotherwise.com/wp-content/uploads/2018/06/the-better-india-logo-e1529207638232.jpg" style="height: 74px; width: 200px;">
+                        </div>
+                        <div class="text-center mx-4 mt-2 align-self-center" style="word-break: break-all;">
+                            <h3>
+                                ड्रॉपआउट एक साल में आईटी जॉब्स पाने के लिए छात्रों को कौशल से वंचित कर रहे हैं।
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <div>
+                            <img src="https://www.lebal.paris/wp-content/uploads/2018/07/22940-3.jpg" style="height: 74px; width: 200px;">
+                        </div>
+                        <div class="text-center mx-4 mt-2" style="word-break: break-all;">
+                            <h3>
+                               कोडर्स के लिए एक गुरुकुल कैसे जीवन बदल रहा है
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <div>
+                            <img src="https://pbs.twimg.com/media/CgZ-vhrVAAAB7eL.png" style="height: 74px; width: 200px;">
+                        </div>
+                        <div class="text-center mx-4 mt-2" style="word-break: break-all;">
+                            <h3>
+                                कोडर्स के लिए एक गुरुकुल कैसे जीवन बदल रहा है.....
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <div>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/Quartz_logo.png" style="height: 30px; width: 200px;">
+                        </div>
+                        <div class="text-center mx-4 mt-2" style="word-break: break-all;">
+                            <h3>
+                               IIT की ग्रेडिंग? नहीं, यह स्कूल छोड़ने वाला है ...
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <div>
+                            <img src="https://tma-live.s3.ap-south-1.amazonaws.com/medias/55b7d6668ead0e48288b4571/1565801169824/8fa63fb6aa84f1eec2b02324e43e3c96.png" style="height: 64px; width: 150px;">
+                        </div>
+                        <div class="text-center mx-4 mt-2" style="word-break: break-all;">
+                            <h3>
+                                नवगुरुकुल: सफलता के लिए कोड क्रैक करना ...
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="container m-size mb-5">
+        <div class="text-center text-capitalize">
+            <h1>हम किसकी तलाश कर रहे हैं?</h1>
+            <hr class="primary">
+        </div>
+        <div class="text-center" style="opacity: 0.9">
+            <p>यदि आप एक संगठन या एक व्यक्ति हैं जो युवाओं और / या शिक्षा के साथ काम करते हैं, तो हमारे पास सहयोग करने की एक बड़ी क्षमता है।<br><br>
+
+            हमारे साथी हमारे सॉफ्टवेयर इंजीनियरिंग कार्यक्रम और इसके लाभों के बारे में अपने समुदायों को प्रेरित और सूचित करते हैं। वे ऐसे युवाओं की पहचान करते हैं जो इस अवसर का उपयोग कर सकते हैं और यदि आवश्यक हो तो उनके लिए प्रवेश परीक्षा आयोजित कर सकते हैं।<br><br>
+
+            हम अपने समुदाय में युवाओं की जरूरतों को समझने, सूचना सत्रों और प्रवेश परीक्षणों के लिए सामग्री की पेशकश करके इस जुटाना प्रक्रिया में अपने सहयोगियों का समर्थन करते हैं।<br><br>
+
+            एक बार जब छात्रों को किसी भी साथी की मदद से चुना जाता है, तो हम छात्रों की प्रगति रिपोर्ट को साथी को पेश करते हैं और उनके प्रभाव रिपोर्ट और वार्ता में उनकी प्रेरणादायक कहानियों को साझा करने में उनकी मदद करते हैं।</p>
+        </div>
+    </section>
+
+    <section class="container m-size mb-5">
+        <div class="text-center text-capitalize">
+            <h1>साथी प्रशंसापत्र</h1>
+            <hr class="primary">
+        </div>
+        <div class="text-center" style="opacity: 0.9">
+            <p>वर्तमान में हमारे पास भारत भर में 35+ एनजीओ, स्कूल और कॉलेज हैं जो यथासंभव योग्य युवाओं तक पहुँचने के हमारे प्रयासों में हमारा समर्थन करते हैं। कई लोग अपने इलाकों या कार्यक्षेत्रों में चैंपियन बन जाते हैं ताकि हमारे आसपास के युवाओं को हमारे कार्यक्रम के बारे में पता चल सके</p>
+        </div>
+        <div class="container-fluid">
+            <div id="carouselId" class="carousel slide" data-ride="carousel">
+            <!-- <ol class="carousel-indicators">
+                <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselId" data-slide-to="1"></li>
+                <li data-target="#carouselId" data-slide-to="2"></li>
+            </ol> -->
+                <div class="carousel-inner" role="listbox" style="opacity: 0.9">
+                    <div class="carousel-item active">
+                       <p class="text-left">नवगुरुकुल एक अद्भुत संगठन है, जो युवाओं और विशेष रूप से कुछ सामाजिक और आर्थिक रूप से चुनौतीपूर्ण बैक ग्राउंड की लड़कियों से एक आकांक्षात्मक और जीवन बदलने वाला कार्यक्रम बनाने के प्रति अपने दृष्टिकोण में बहुत भविष्यवादी है। हम मूल्य प्रणाली, गहराई और ईमानदारी की प्रशंसा करते हैं जिसके साथ उन्होंने प्रभाव को बढ़ाने के लिए हमारे साथ सहयोग किया।</p>
+                       <p class="text-right font-weight-bold">Dhirendra Pratap Singh, CEO, Milaan - Be the Change</p>
+                    </div>
+                    <div class="carousel-item">
+                       <p class="text-left">कई लोगों के लिए दुनिया और समाज के बाद अपना कैरियर बनाने का अवसर प्राप्त करने के लिए बहुत से स्थानों में से एक को गिरा दिया गया और उन्हें यह कहते हुए अस्वीकार कर दिया कि वे ऊपर नहीं आ सकते हैं ... उम्मीदवार कई व्यक्तिगत चरित्र सीखते हैं जैसे नेतृत्व की गुणवत्ता, आत्मविश्वास, जो एक को हाथ लगाने में मदद करता है। जरूरत है, संचार कौशल, टीम वर्क आदि ... मेरी पत्नी और मैं व्यक्तिगत रूप से बैंगलोर में नवगुरुकुल गए और छात्रों के साथ कुछ समय बिताया और उन्हें खुशी-खुशी पढ़ाई करते देखा और उनकी दी गई सभी जिम्मेदारियों में बहुत सक्रिय रहे।</p>
+                       <p class="text-right font-weight-bold">Suresh G, Program Director, Hope Foundation</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="text-left">नवगुरुकुल के साथ, हमारे छात्र जो सॉफ्टवेयर इंजीनियर बनना चाहते थे, अब अपने परिसरों में अध्ययन कर रहे हैं। मैं कभी-कभी उन छात्रों से बात करता हूं और वे मुझे बताते हैं कि एक अच्छी कंप्यूटर इंजीनियरिंग शिक्षा पूरी करने के उनके सपने को देखकर वे कितने खुश हैं। नवगुरुकुल टीम, विशेष रूप से सुरभि, हमें प्रवेश परीक्षा आयोजित करने और हमारे छात्रों को आउटरीच सुनिश्चित करने में मदद करने में वास्तव में सहयोगी रही है।</p>
+                        <p class="text-right font-weight-bold">Aditya Bose, CEO, Probano</p>
+                    </div>
+                </div>
+            <!-- <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a> -->
+            </div>
+        </div>
+    </section>
+
+    <section class="m-size mb-5">
+        <div class="container-fluid">
+            <h1 class="text-center text-capitalize pt-5 font-weight-normal">
+                द्वारा समर्थित:
+            </h1>
+            <hr class="primary">
+        </div>
+        <div class="container-fluid">
+            <div id="carouselId" class="carousel slide" data-ride="carousel">
+            
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active text-center">
+                        <div>
+                            <img src="https://itac.ca/wp-content/uploads/2019/09/Accenture-Logo-Web.jpg" style="height: 150px; width: 300px;">
+                        </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <div>
+                            <img src="https://cdn.vox-cdn.com/thumbor/NeSo4JAqv-fFJCIhb5K5eBqvXG4=/7x0:633x417/1200x800/filters:focal(7x0:633x417)/cdn.vox-cdn.com/assets/1311169/mslogo.jpg" style="height: 20 0px; width: 300px;">
+                        </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <div class="pt-5">
+                            <img src="https://www.games24x7.com/img/games24x7-logo90x454.png" style="height: 60px; width: 300px;">
+                        </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <div>
+                            <img src="https://www.socialalpha.org/wp-content/uploads/2019/02/Social-Alpha-Logo.png" style="height: 100px; width: 200px;">
+                        </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <div>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRvcDt9cHnGj-33u35UKAy7-aqZbUm9hCjJqZszQjZOKW5OCYT5&usqp=CAU" style="height: 100px; width: 320px;">
+                        </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <div>
+                            <img src="https://media-exp1.licdn.com/dms/image/C510BAQF5YXO9w-HkUA/company-logo_200_200/0?e=2159024400&v=beta&t=ZJy5lai9rQqiQRM4CIYXXFXRLlNUTKrn7r0tNesPv7w" style="height: 120px; width: 130px;">
+                        </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <div>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRVROwrLdxetnz8ZS-FXP23SOC3Xh1vO34KIeArLafZNQj0_Voz&usqp=CAU" style="height: 100px; width: 450px;">
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="container m-size mt-5 mb-5">
+        <div class="text-center">
+            <h1>अपने इलाके / समुदाय में एक परीक्षा का संचालन करें</h1>
+            <hr class="primary">
+        </div>
+        <div class="text-center" style="opacity: 0.8">
+            <p>अगर आपके आसपास ऐसे युवा हैं जो टेस्ट देने में रुचि रखते हैं, तो आप उन्हें दो तरह से टेस्ट लेने में मदद कर सकते हैं:</p>
+        </div>
+        <div class="row h-auto container pl-5">
+            <div class="col-12 col-md-6 box bg-color1 pt-4 pb-4">
+                <h2 class="text-center">
+                    <b>Online</b> Tests
+                </h2>
+                <p class="text-left px-4">
+               स्मार्टफोन या लैपटॉप / कंप्यूटर का उपयोग करने वाला कोई भी व्यक्ति इस लिंक का उपयोग करके परीक्षा ऑनलाइन दे सकता है:</p>
+                <a href="https://navgurukul.org/admissions.navgurukul.org" target="_blank" style="color: whitesmoke;">
+                    <strong class="ml-3 NGid">admissions.navgurukul.org</strong>
+                </a> 
+            </div>
+            <div class="col-12 box col-md-6 bg-dark text-white pt-4 pb-4">
+                <h2 class="text-center">
+                    <b>Offline</b> Tests
+                </h2>
+                <p class="text-left px-5">
+               यदि आप परीक्षा में भाग ले रहे हैं, तो हम आपको परीक्षा के प्रश्नपत्र भेजेंगे। एक बार परीक्षा समाप्त हो जाने के बाद, आप बस उत्तर पुस्तिका और छात्र सूचना पत्र की फोटो हमें भेज सकते हैं।</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container m-size mb-5">
+        <div class="container text-center">
+            <h1>वीडियो</h1>
+            <hr class="primary">
+        </div>
+        <div class="container row mt-5 ml-1">
+            <div class="card col-12 col-md-6 mb-4" style="border:none;">
+                <div style="position: relative;">
+                    <a data-fancybox href="https://www.youtube.com/watch?v=dLVT1fJeWHI" class="d-block">
+                        <img class="card-img-top" src="https://img.youtube.com/vi/dLVT1fJeWHI/mqdefault.jpg">
+                        <img class="playicon" src="https://navgurukul.org/assets/img/playicon.png">
+                    </a>
+                </div>
+                <div class="card-body" style="background-color: #eee;">
+                    <p class="card-text">
+                        नवगुरुकुल का त्वरित परिचय
+                    </p>
+                </div>
+            </div>
+            <div class="card col-12 col-md-6 mb-4" style="border:none;">
+                <div style="position: relative;">
+                    <a data-fancybox href="https://www.youtube.com/watch?v=mK8VpkiuLgg" class="d-block">
+                        <img class="card-img-top" src="https://img.youtube.com/vi/mK8VpkiuLgg/mqdefault.jpg">
+                        <img class="playicon" src="https://navgurukul.org/assets/img/playicon.png">
+                    </a>
+                </div>
+                <div class="card-body" style="background-color: #eee;">
+                    <p class="card-text">
+                        नवगुरुकुल का विस्तृत परिचय
+                    </p>
+                </div>
+            </div>
+            <div class="card col-12 col-md-6 mb-4" style="border:none;">
+                <div style="position: relative;">
+                    <a data-fancybox href="https://www.youtube.com/watch?v=vuSwndj5cbs" class="d-block">
+                        <img class="card-img-top" src="https://img.youtube.com/vi/vuSwndj5cbs/mqdefault.jpg">
+                        <img class="playicon" src="https://navgurukul.org/assets/img/playicon.png">
+                    </a>
+                </div>
+                <div class="card-body" style="background-color: #eee;">
+                    <p class="card-text">
+                        नवगुरुकुल के बारे में छात्र प्रशंसापत्र    
+                    </p>
+                </div>
+            </div>
+            <div class="card col-12 col-md-6 mb-4" style="border:none;">
+                <div style="position: relative;">
+                    <a data-fancybox href="https://www.youtube.com/watch?v=IqMUClmN7-c" class="d-block">
+                        <img class="card-img-top" src="https://img.youtube.com/vi/IqMUClmN7-c/mqdefault.jpg">
+                        <img class="playicon" src="https://navgurukul.org/assets/img/playicon.png">
+                    </a>
+                </div>
+                <div class="card-body" style="background-color: #eee;">
+                    <p class="card-text">
+                        नवगुरुकुल में जीवन      
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container m-size mt-5">
+        <div class="row ml-5">
+            <div class="col-lg-6 col-7 text-center">
+                <h2>संपर्क करें</h2>
+                <hr class="primary">
+                <p>
+                    <b>के रूप में पंजीकृत है:</b> नवगुरुकुल फाउंडेशन फॉर सोशल वेलफेयर <br>
+                    <b>CIN नंबर:</b> U85300HR2016NPL066468<br>
+                    पर बात करते हैं
+                    <a href="mailto:hi@navgurukul.org" style="color: red">hi@navgurukul.org.</a>
+                </p>
+            </div>
+            <div class="col-lg-4 col-3 mt-5">
+                <span class="icon font-weight-bold">
+                    <a style="color: #fff;"  target="_blank" href="http://facebook.com/NavGurukul">
+                        <i class="fa fa-facebook"></i>
+                        f
+                    </a>
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer-text mt-3">
+        <div class=" text-center footer bg-dark pt-2" >
+            <span>Start learning now at <a href="#" style="text-decoration: none;" class="text-danger">SARAL</a><br>
+                Website maintained by NavGurukul students</span>
+        </div>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

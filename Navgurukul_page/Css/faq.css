@@ -1,0 +1,110 @@
+.logoheader{
+    height: 40px;
+    width: 150px;
+}
+
+.navbar-item{
+    float: right;
+    margin-left: 240px;
+}
+
+.minHeight{
+    margin-top: 120px;
+}
+
+
+
+.faq-nav {
+    flex-direction: column;
+    margin: 0 0 32px;
+    border-radius: 2px;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 5px rgba(85, 85, 85, 0.15);
+  
+}
+  
+
+.faq-nav{
+    margin:0 0 32px;
+    border-radius:2px;
+    border:1px solid #ddd;
+    box-shadow:0 1px 5px rgba(85,85,85,.15)
+}
+
+    
+.faq-nav .nav-link{
+    position:relative;
+    display:block;
+    padding:13px 16px;
+    background-color:#fff;
+    border-bottom:1px solid #ddd;
+}
+
+
+.faq-nav .nav-link.active,.faq-nav .nav-link:hover{
+    background-color:#f6f6f6
+}
+
+
+.tab-content .card-header{
+    padding:15px 16px;
+    background-color:#fff
+}
+    
+    
+    
+.tab-content .card-header h5 button{
+    display:block;
+    width:100%;
+    font-weight:700;
+    color:tomato;
+    text-align:left;
+    white-space:normal
+}
+
+
+.tab-content .card-header 
+h5 button:active,.tab-content 
+.card-header h5 button:focus,
+.tab-content .card-header h5 
+button:hover,.tab-content 
+.card-header h5 button:hover:active{
+    text-decoration:none
+}
+
+.tab-content .card-body p{
+    color:#616161
+}
+
+
+
+.footer{
+	height: 70px;
+    color: #fff;
+    margin-top: 100px;
+}
+
+
+@media only screen and (max-width:700px){
+    .minHeight{
+        width: 400px;
+        margin-left: 12px;
+
+    }
+}
+
+@media only screen and (max-width:700px){
+    .nav-bar{
+       margin-bottom: 40px;
+
+    }
+}
+
+
+
+@media only screen and (max-width:700px){
+    .footer-text{
+        width: 430px;
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,77 @@
+.logoheader{
+    height: 40px;
+    width: 150px;
+}
+
+.navbar-item{
+    float: right;
+    margin-left: 240px;
+}
+
+.image{
+    height: 120px;
+    width: 200px;
+}
+
+
+.playicon{
+	position: absolute;
+	top: calc(50% - 60px);
+	width: 120px;
+	cursor: pointer;
+    left: calc(50% - 60px);
+    margin-top: 40px;
+}
+
+
+
+.primary{
+	width: 60px;
+	border-color: #f05f40;
+    border-top-color: rgb(240, 95, 64);
+    border-right-color: rgb(240, 95, 64);
+    border-bottom-color: rgb(240, 95, 64);
+    border-left-color: rgb(240, 95, 64);
+	border-width: 3px;
+}
+
+/* .slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+ */
+
+
+
+
+
+.footer{
+	height: 70px;
+	color: #fff;
+}
+
+
+
+
+@media only screen and (max-width:700px){
+    .footer-text{
+        width: 360px;
+        font-size: 13px;
+        /* margin-left: -10px; */
+    }
+}
+
+
+
+
+

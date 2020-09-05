@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Navgurukul</title>
+    <link rel="icon" href="https://navgurukul.org/assets/img/favicon.png">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="Css/partner.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <nav id="mainNav" class="navbar navbar-expand-sm navbar-default fixed-top navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img class="logoheader" src="https://navgurukul.org/assets/img/logo.png" alt="logonavgurukul">
+            </a>
+            <div class="nav-item dropdown">
+                <a class=" dropdown-toggle text-danger" data-toggle="dropdown" >हिंदी </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" onclick="Change()" href="#">
+                        English
+                    </a>
+                </div>
+            </div>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse "id="collapsibleNavId">
+                <ul class="navbar-nav navbar-item font-weight-bold">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="home.html">विषय<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="partner.html">पार्टनर</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://medium.com/navgurukul" target="_blank">ब्लॉग</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://saral.navgurukul.org/" target="_blank">SARAL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://admissions.navgurukul.org/students" target="_blank">आवेदन</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="alumni.html" target="_blank">भूतपूर्व छात्र</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="volunteer.html" target="_blank">स्वयंसेवक</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hire.html">पारिश्रमिक</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="donate.html">दानस्वरूप्</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">सामान्य प्रश्न</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid slider mt-5 m-size text-center">
+        <div id="carouselId" class="carousel slide" data-ride="carousel">
+           <!--  <ol class="carousel-indicators">
+                <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselId" data-slide-to="1"></li>
+                <li data-target="#carouselId" data-slide-to="2"></li>
+            </ol> -->
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="text-center">
+                        <img class="h-25 w-50" src="https://navgurukul.org/assets/img/about/1.jpg">
+                    </div>
+                   <!--  <div class="align-self-center col-md-4 col-12" style="word-break: break-word">
+                        <h3>उच्च शिक्षा में असमानता को चुनौती देने के लिए कॉलेजों का विकल्प</h3>
+                    </div> -->
+                </div>
+                <div class="carousel-item">
+                    <div class="text-center">
+                        <img class="h-25 w-50" src="https://navgurukul.org/assets/img/about/2.jpg">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="text-center">
+                        <img class="h-25 w-50" src="https://navgurukul.org/assets/img/about/4.jpg">
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    
+    <section class="container m-size mt-5 mb-5">
+        <div class="text-center">
+            <h2>हमारे बारे में</h2>
+            <hr class="primary">
+        </div>
+        <div class="text-center" style="opacity: 0.8">
+            <p>2016 में शुरू किया गया, नवगुरुकुल अंडरड्रेस्ड और विविध समुदायों के छात्रों के लिए एक वर्षीय आवासीय पाठ्यक्रम 
+            चलाता है। हमारे पाठ्यक्रम का पीछा करने के बाद छात्रों को सॉफ्टवेयर प्रोग्रामिंग में डिप्लोमा से सम्मानित किया जाता है। 
+            भारत सरकार के डीजीटी द्वारा जारी एमओयू को <a href="https://navgurukul.org/assets/static/mou_dgt_diploma-in-software-programming.pdf" target="_blank" class="text-danger"> यहां</a> विस्तृत रूप से जारी किया गया है।</p>
+        </div>
+    </section>
+
+    <section class="container-fluid mt-5">
+        <div class="text-center">
+            <h2>टीम</h2>
+            <hr class="primary">
+        </div>
+
+        <div class="row col-10 m-size offset-1 mt-4 mx-auto">
+            <div class="col-md-4 col-sm-6 col-12 text-center">
+                <div class="m-size contant-body">
+                    <img class="img" src="https://navgurukul.org/assets/img/main/abhishek-gupta.jpg">
+                    <!-- <ul class="social" style=""> 
+                        <li>
+                            <a target="_blank" class="fa fa-linkedin" href="http://linkedin.com/in/abhishekgupta92"></a>
+                        </li>
+                    </ul> -->
+                </div>
+                <div class="m-size card-body">
+                    <h3 class="card-title">Abhishek Gupta</h3>
+                    <span class="post " style="opacity: 1">CEO & सह-संस्थापक</span>
+                    <p class="card-text text-center mt-3" style="opacity: 0.7">IITD IT13 CS स्नातक। Zumbl.com और FranklyMe की सह-स्थापना की। Zumbl का अधिग्रहण किया गया और FranklyMe ने मैट्रिक्स पार्टनर्स और अन्य से 2.6M $ से अधिक राशि जुटाई। नवगुरुकुल से पहले शिक्षा विभाग, दिल्ली सरकार के साथ काम कर रहा था।</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-12 text-center">
+                <div class="m-size contant-body">
+                    <img class="img" src="https://navgurukul.org/assets/img/main/rishabh-verma.jpg">
+                    <!-- <ul class="social"> 
+                        <li>
+                            <a target="_blank" class="fa fa-linkedin" href="http://linkedin.com/in/rishmunk"></a>
+                        </li>
+                    </ul> -->
+                </div>
+                <div class="m-size card-body">
+                    <h3 class="card-title">Rishabh Verma</h3>
+                    <span class="post" style="opacity: 1">COO & सह-संस्थापक</span>
+                    <p class="card-text text-center mt-3" style="opacity: 0.7">एक स्व-शिक्षित प्रोग्रामर, शिक्षा और प्रौद्योगिकी पर काम कर रहा है। उम्र 21, वह एयरवोट की संस्थापक टीम का हिस्सा थे। फिर उन्होंने पहाड़ों में यात्रा करने के लिए एक साल का ब्रेक लिया। बाद में, ऋषभ ने ग्रोनॉट के लिए प्रौद्योगिकी का नेतृत्व किया।</p>
+                </div>
+            </div>
+
+            <!-- <div class="col-md-4 col-sm-6 col-12 text-center">
+                <div class="contant-body">
+                    <img class="img" src="https://navgurukul.org/assets/img/main/surabhi-yadav.jpg">
+                    <ul class="social"> 
+                        <li>
+                            <a target="_blank" class="fa fa-linkedin" href="https://www.linkedin.com/in/surabhi-yadav-6771323a/"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Surabhi Yadav</h3>
+                    <span class="post" style="opacity: 1">मुख्य नवपरिवर्तन अधिकारी</span>
+                    <p class="card-text text-center mt-3" style="opacity: 0.7">आईआईटी दिल्ली + यूसी बर्कले अलुम्ना। भारत में समावेशी नवाचार पारिस्थितिकी तंत्र को समझने के लिए 3 साल के लिए आईआईटी दिल्ली में एक सार्वजनिक नीति शोधकर्ता के रूप में काम किया। उनका काम भारत में लिंग और ग्रामीण विकास पर केंद्रित है।</p>
+                </div>
+            </div> -->
+
+            <div class="col-md-4 col-sm-6 col-12 text-center">
+                <div class="m-size contant-body">
+                    <img class="img" src="https://navgurukul.org/assets/img/main/alisha.png">
+                    <!-- <ul class="social"> 
+                        <li>
+                            <a target="_blank" class="fa fa-linkedin" href="#"></a>
+                        </li>
+                    </ul> -->
+                </div>
+                <div class="m-size card-body">
+                    <h3 class="card-title">Alisha Sadana</h3>
+                    <span class="post" style="opacity: 1">सुविधा प्रभारी</span>
+                    <p class="card-text text-center mt-3" style="opacity: 0.7">एक नारीवादी और सामाजिक कार्यकर्ता, 25 दिनों के जन आंदोलन / शांति अभियान के सदस्यों में से एक। मानविकी और सामाजिक कार्य का एक छात्र। लैंगिक समानता, घरेलू हिंसा, महिला अधिकारों और एलजीबीटी मुद्दों पर विभिन्न प्रशिक्षण कार्यक्रमों में भाग लिया।</p>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6 col-12 text-center">
+                <div class="m-size contant-body">
+                    <img class="img" src="https://navgurukul.org/assets/img/alumni/nilu.jpeg">
+                    <!-- <ul class="social"> 
+                        <li>
+                            <a target="_blank" class="fa fa-linkedin" href="https://www.linkedin.com/in/nilam-kumari-53379816a/"></a>
+                        </li>
+                    </ul> -->
+                </div>
+                <div class="m-size card-body">
+                    <h3 class="card-title">Nilam Kumari</h3>
+                    <span class="post" style="opacity: 1">तकनीकी सहयोगी, बैंगलोर</span>
+                    <p class="card-text text-center mt-3" style="opacity: 0.7">नीलम बिहार के किशनगंज की रहने वाली है। उसने अपना ग्रेजुएशन किया है। उसके पिता एक छोटे किसान थे। वह तकनीक और गैर-शिक्षा का पता लगाना चाहती है। वर्तमान में वह नवगुरुकुल के साथ एक टीम के सदस्य के रूप में काम कर रही है और वह लड़कियों के साथ काम करना चाहती है।</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-12 text-center">
+                <div class="m-size contant-body">
+                    <img class="img" src="https://navgurukul.org/assets/img/alumni/nitesh-sharma.jpg">
+                    <!-- <ul class="social"> 
+                        <li>
+                            <a target="_blank" class="fa fa-linkedin" href="#"></a>
+                        </li>
+                    </ul> -->
+                </div>
+                <div class="m-size card-body">
+                    <h3 class="card-title">Nitesh Sharma</h3>
+                    <span class="post" style="opacity: 1">सुविधा प्रभारी</span>
+                    <p class="card-text text-center mt-3" style="opacity: 0.7">नवगुरुकुल के पूर्व छात्र, नितेश ने संत सिंगाजी इंस्टीट्यूट ऑफ साइंस एंड मैनेजमेंट से बीसीए पूरा किया। सुविधा और जमीनी काम के माध्यम से सामाजिक कल्याण और समस्याओं को हल करने में रुचि रखते हैं।</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-12 text-center">
+                <div class="m-size contant-body">
+                    <img class="img" src="https://navgurukul.org/assets/img/alumni/pralhad-jadhav.jpg">
+                    <!-- <ul class="social"> 
+                        <li>
+                            <a target="_blank" class="fa fa-linkedin" href="https://www.linkedin.com/in/pralhad-jadhav-7073b1174/"></a>
+                        </li>
+                    </ul> -->
+                </div>
+                <div class="m-size card-body">
+                    <h3 class="card-title">Pralhad Jadhav</h3>
+                    <span class="post" style="opacity: 1">सॉफ्टवेयर इंजीनियर</span>
+                    <p class="card-text text-center mt-3" style="opacity: 0.7">नवगुरुकुल के पूर्व छात्र, प्रल्हाद ने पुणे विश्वविद्यालय से 2017 में इलेक्ट्रॉनिक्स एंड टेलीकम्युनिकेशन इंजीनियरिंग स्ट्रीम से बीई पूरा किया। अब तकनीकी सपोर्टर के रूप में नवगुरुकुल के साथ काम कर रहे हैं</p>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6 col-12 text-center">
+                <div class="m-size contant-body">
+                    <img class="img" src="https://navgurukul.org/assets/img/main/anuradha-daswani.jpg">
+                    <!-- <ul class="social"> 
+                        <li>
+                            <a target="_blank" class="fa fa-linkedin" href="http://linkedin.com/in/anuradhadaswani"></a>
+                        </li>
+                    </ul> -->
+                </div>
+                <div class="m-size card-body">
+                    <h3 class="card-title">Anuradha Daswani</h3>
+                    <span class="post" style="opacity: 1">लाइफसाइकल कार्यक्रम लीड</span>
+                    <p class="card-text text-center mt-3" style="opacity: 0.7">नवगुरुकुल के पूर्व छात्र, प्रल्हाद ने पुणे विश्वविद्यालय से 2017 में इलेक्ट्रॉनिक्स एंड टेलीकम्युनिकेशन इंजीनियरिंग स्ट्रीम से बीई पूरा किया। अब तकनीकी सपोर्टर के रूप में नवगुरुकुल के साथ काम कर रहे हैं</p>
+                </div>
+            </div>
+
+            <!-- <div class="col-md-4 col-sm-6 col-12 text-center">
+                <div class="contant-body">
+                    <img class="img" src="https://pbs.twimg.com/profile_images/1166471091663122433/5ULjGFJS_400x400.jpg">
+                    <ul class="social"> 
+                        <li>
+                            <a target="_blank" class="fa fa-linkedin" href="#"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Rakesh kumar</h3>
+                    <span class="post" style="opacity: 1">सॉफ्टवेयर इंजीनियर</span>
+                    <p class="card-text text-center mt-3" style="opacity: 0.7">मैं नवगुरुकुल में एक छात्र हूं। मैं स्वयं शिक्षार्थी हूं। मैं अपना कौशल तलाश रहा हूं। मैं बिहार, कटिहार का हूँ। मेरे पिता एक किसान है। मैंने अपनी 12 वीं पूरी की।</p>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <section class="footer-text mt-3">
+        <div class=" text-center footer bg-dark pt-2" >
+            <span>Start learning now at <a href="#" style="text-decoration: none;" class="text-danger">SARAL</a><br>
+                Website maintained by NavGurukul students</span>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

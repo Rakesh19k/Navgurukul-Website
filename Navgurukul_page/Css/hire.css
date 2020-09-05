@@ -1,0 +1,83 @@
+.logoheader{
+    height: 40px;
+    width: 150px;
+}
+
+.navbar-item{
+    float: right;
+    margin-left: 240px;
+}
+
+.text{
+    padding-top: 80px;
+}
+.primary{
+	width: 65px;
+	border-color: #f05f40;
+    border-top-color: rgb(240, 95, 64);
+    border-right-color: rgb(240, 95, 64);
+    border-bottom-color: rgb(240, 95, 64);
+    border-left-color: rgb(240, 95, 64);
+	border-width: 3px;
+}
+
+#overflowTest{
+	width: 850px;
+	height: 500px;
+	overflow:scroll;
+    border: 5px;
+    margin-left: 170px;
+    /* background-color:rosybrown; */
+    
+}
+
+.placement{
+    width: 800px;
+    padding-left: 10px;
+    padding-right: 30px;
+    /* background-color: royalblue; */
+}
+
+.place-text{
+    margin-top: 20px;
+}
+
+.footer{
+	height: 70px;
+	color: #fff;
+}
+
+
+
+@media only screen and (max-width:700px){
+    .text{
+        margin-left: -30px;
+    }
+}
+
+@media only screen and (max-width:700px){
+   .d-file{
+       margin-bottom: -25px;
+   }
+}
+
+@media only screen and (max-width:700px){
+    #overflowTest{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:700px){
+    .f-text{
+        width: 100%;
+        margin-left: 17px;
+        margin-bottom: 25px;
+    }
+}
+
+@media only screen and (max-width:700px){
+    .footer-text{
+        width: 406px;
+        font-size: 15px;
+    }
+}

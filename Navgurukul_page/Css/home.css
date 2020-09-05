@@ -1,0 +1,81 @@
+.logoheader{
+    height: 40px;
+    width: 150px;
+}
+
+.navbar-item{
+    float: right;
+    margin-left: 240px;
+}
+
+
+.slider{
+    padding-top: 70px;
+    
+}
+
+.playicon{
+	position: absolute;
+	top: calc(50% - 60px);
+	width: 120px;
+	cursor: pointer;
+	left: calc(50% - 60px);
+}
+
+
+.primary{
+	width: 60px;
+	border-color: #f05f40;
+    border-top-color: rgb(240, 95, 64);
+    border-right-color: rgb(240, 95, 64);
+    border-bottom-color: rgb(240, 95, 64);
+    border-left-color: rgb(240, 95, 64);
+	border-width: 3px;
+}
+
+.bg-color1{
+	background-color: #f05f40;
+	color: #fff;
+}
+
+.icon{
+	font-size: 60px;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    clear: both;
+    color: #fff;
+    border: 0;
+    background: rgba(0,0,0,.2);
+}
+
+
+.icon:hover{
+	background-color:rgb(70,70,255);
+}
+
+
+.footer{
+	height: 70px;
+	color: #fff;
+}
+
+
+
+@media only screen and (max-width:700px){
+    .m-size{
+        margin-left:20px;
+    }
+}
+
+
+@media only screen and (max-width:700px){
+    .footer-text{
+        width: 400px;
+        font-size: 14px;
+    }
+}

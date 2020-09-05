@@ -1,0 +1,161 @@
+.logoheader{
+    height: 40px;
+    width: 150px;
+}
+
+.navbar-item{
+    float: right;
+    margin-left: 240px;
+}
+
+.text{
+    padding-top: 50px;
+}
+
+.primary{
+	width: 110px;
+	border-color: #f05f40;
+    border-top-color: rgb(240, 95, 64);
+    border-right-color: rgb(240, 95, 64);
+    border-bottom-color: rgb(240, 95, 64);
+    border-left-color: rgb(240, 95, 64);
+	border-width: 3px;
+}
+
+
+.image{
+    display: flex;
+    height: 250px;
+    width: 450px;
+}
+
+.im-checkout-btn.btn--default {
+    color: #fff;
+    background: #75c26a;
+    letter-spacing: 1px;
+    padding: 12px 8px;
+    margin: 0 auto;
+    opacity: 0.9;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+
+
+.badge-info{
+   border-radius: 50px;
+}
+
+.badge-warning{
+    border-radius: 50px;
+}
+
+.badge-dark{
+    border-radius: 50px;
+}
+
+.badge-secondary{
+    border-radius: 50px;
+}
+
+.badge-danger{
+    border-radius: 50px;
+}
+
+.badge-primary{
+    border-radius: 50px;
+}
+
+.footer{
+	height: 70px;
+	color: #fff;
+}
+
+
+
+@media only screen and (max-width:700px){
+    .f-text{
+        margin-left: 56px;
+    }
+}
+
+@media only screen and (max-width:700px){
+    .image-text{
+        margin-left: -52px;
+        margin-top: -20px;
+    }
+}
+
+@media only screen and (max-width:700px){
+    .t-text{
+        width: 100%;
+        font-size: 16px;
+        margin-left: 120px;
+        display: flex;
+
+    }
+}
+
+@media only screen and (max-width:700px){
+    .a-d-text{
+        width: 100%;
+        font-size: 18px;
+        margin-left: 50px;
+
+    }
+}
+
+@media only screen and (max-width:700px){
+    .a-text{
+        width: 100%;
+        margin-bottom: 19px;    }
+}
+
+
+@media only screen and (max-width:700px){
+    .d-text{
+        width: 100%;
+        margin-left: 75px;
+        display: inline-flex;
+
+    }
+}
+
+@media only screen and (max-width:700px){
+    .pay-text{
+        width: 135%;
+        display: flex;
+    }
+}
+
+@media only screen and (max-width:700px){
+    .im-chechout{
+        margin-left: 85px;
+        margin-bottom:10px;
+    }
+}
+
+@media only screen and (max-width:700px){
+    .m-donation{
+        font-size: 18px;
+        margin-bottom: 20px;
+        /* background-color: crimson; */
+        display: block;
+        width: 300px;
+
+    }
+}
+
+
+@media only screen and (max-width:700px){
+    .amount-d{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:700px){
+    .footer-text{
+        width: 473px;
+        font-size: 15px;
+    }
+}

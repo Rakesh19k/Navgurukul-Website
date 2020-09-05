@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Navgurukul</title>
+    <link rel="icon" href="https://navgurukul.org/assets/img/favicon.png">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="Css/volunteer.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <nav id="mainNav" class="navbar navbar-expand-sm navbar-default fixed-top navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img class="logoheader" src="https://navgurukul.org/assets/img/logo.png" alt="logonavgurukul">
+            </a>
+            <div class="nav-item dropdown">
+                <a class=" dropdown-toggle text-danger" data-toggle="dropdown" >हिंदी </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" onclick="Change()" href="#">
+                        English
+                    </a>
+                </div>
+            </div>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse "id="collapsibleNavId">
+                <ul class="navbar-nav navbar-item font-weight-bold">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="home.html">विषय<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="partner.html">पार्टनर</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://medium.com/navgurukul" target="_blank">ब्लॉग</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://saral.navgurukul.org/" target="_blank">SARAL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://admissions.navgurukul.org/students" target="_blank">आवेदन</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="alumni.html" target="_blank">भूतपूर्व छात्र</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="volunteer.html" target="_blank">स्वयंसेवक</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hire.html">पारिश्रमिक</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="donate.html">दानस्वरूप्</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">सामान्य प्रश्न</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="mt-4">
+        <a data-fancybox href="https://www.youtube.com/watch?v=dLVT1fJeWHI&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0">
+            <div style="background:url(https://img.youtube.com/vi/dLVT1fJeWHI/maxresdefault.jpg); position:relative; 
+            background-repeat: no-repeat; background-position: center; background-size: cover; min-height:560px; 
+            min-width:100%; max-width: 100%; cursor: pointer;">
+              <img class="playicon" src="https://navgurukul.org/assets/img/playicon.png" />
+            </div>
+          </a>
+    </div>
+
+    <section class="container mt-5 m-size">
+        <!-- <div class="text-center">
+            <div class="container">
+                <h1 class="text-center text-capitalize pt-5 font-weight-normal">
+                    अपनी रुचि का क्षेत्र चुनें
+                </h1>
+                <hr class="primary">
+            </div>
+        </div>
+        <div id="carouselId" class="carousel slide text-center" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselId" data-slide-to="1"></li>
+                <li data-target="#carouselId" data-slide-to="2"></li>
+                <li data-target="#carouselId" data-slide-to="3"></li>
+                <li data-target="#carouselId" data-slide-to="4"></li>
+                <li data-target="#carouselId" data-slide-to="5"></li>
+                <li data-target="#carouselId" data-slide-to="6"></li>
+                <li data-target="#carouselId" data-slide-to="7"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img class="slider image" src="https://navgurukul.org/assets/img/programmingMentorship.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="slider image" src="https://navgurukul.org/assets/img/interviewProject.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="slider image" src="https://navgurukul.org/assets/img/sensitisation.png" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="slider image" src="https://navgurukul.org/assets/img/marketing.png" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="slider image" src="https://navgurukul.org/assets/img/curriculum.png" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="slider image" src="https://navgurukul.org/assets/img/strategy.png" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="slider image" src="https://navgurukul.org/assets/img/mentalHealth.png" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="slider image" src="https://navgurukul.org/assets/img/life.png" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div> -->
+
+        <div class="text-center">
+    
+          <div class="row mb-3">
+            <div class="col-lg-12 text-center">
+              <h3 class="section-heading">अपनी रुचि का क्षेत्र चुनें</h3>
+              <hr class="primary">
+            </div>
+          </div>
+        
+    
+          <div class="volunteerNav mb-3">
+            <div>
+              <div style="outline: none !important;">
+                <img src="https://navgurukul.org/assets/img/programmingMentorship.png" style="height:120px;"/>
+              </div>
+              <div class="slide-content mt-3" style="outline: none !important;">
+                <div class="mx-3">
+                  <h4 style="margin-bottom:10px;">प्रोग्रामिंग उपासना</h4 style="margin-bottom:15px;">
+                  <div style="margin: 10px; margin-top: 20px;">
+                    आवश्यक कौशल:<b>पायथन या [कोई प्रोग्रामिंग भाषा + पायथन सिंटैक्स को समझने की इच्छा]</b><br/>
+                    समय प्रतिबद्धता: <b>सप्ताह में 3-5 घंटे</b><br/>
+                    स्थान: <b>रिमोट</b><br/><br/>
+                    हम प्रोग्रामिंग के जादू के लिए हजारों योग्य बच्चों को पेश करने के लिए नवगुरुकुल के कार्यक्रमों का दायरा बढ़ा 
+                    रहे हैं। ऐसा करने के लिए, हम पायथन का उपयोग करते हुए प्रोग्रामिंग में तीन महीने के दूरस्थ परिचयात्मक 
+                    पाठ्यक्रम का संचालन करते हैं। पाठ्यक्रम में मूल बातें जैसे कि लूप और फ़ंक्शंस शामिल हैं, जिन्हें द्वि-साप्ताहिक 
+                    मास्टरक्लासेस और संदेह सत्रों के माध्यम से वितरित किया जाता है। ये मास्टरक्लास जूम / गूगल मीट पर आयोजित 
+                    किए जाते हैं और भारत के विभिन्न राज्यों के गांवों और विभिन्न राज्यों में 100 से अधिक छात्रों तक पहुंचते हैं और 
+                    प्रत्येक सत्र में अधिकतम 20 छात्र होते हैं।<br/>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mt-5">
+              <div style="outline: none !important;">
+                <img src="https://navgurukul.org/assets/img/interviewProject.png" style="height:120px;"/>
+              </div>
+              <div class="slide-content mt-3" style="outline: none !important;">
+                <div class="mx-3">
+                  <h4 style="margin-bottom:10px;">Interview &amp; प्रोजेक्ट मेंटरशिप</h4 style="margin-bottom:15px;">
+                  <div style="margin: 10px; margin-top: 20px;">
+                    आवश्यक कौशल: <b>Node.js or React.js</b><br/>
+                    समय प्रतिबद्धता: <b>सप्ताह में 3-5 घंटे</b><br/>
+                    स्थान: <b>रिमोट</b><br/><br/>
+                    जिस तरह हमारे एक साल के आवासीय पाठ्यक्रम में छात्र फिनिश लाइन का रुख करते हैं, उन्हें इंटरव्यू की तैयारी और 
+                    परियोजनाओं पर काम करने के लिए संरचित मदद की जरूरत होती है। छात्रों को चुस्त कार्यप्रणाली, परियोजना संचार, GitHub, 
+                    और उचित कोडिंग प्रथाओं को समझने में छात्रों की मदद करने की उम्मीद है। एक संरक्षक के रूप में, आपसे अपेक्षा की जाएगी
+                    कि नवगुरुकुल छात्र के लिए वास्तविक जीवन की इंटर्नशिप / नौकरी का अनुकरण करने में मदद करे और छात्रों के विकास और 
+                    उनकी पहली नौकरी की तैयारी के प्रति आवश्यक प्रतिक्रिया प्रदान करे। एनजी द्वारा निर्मित और रखरखाव की गई विभिन्न तकनीकों 
+                    के विकास में योगदान करने का यह एक शानदार तरीका है। आप सीधे डिजाइन और विकास में भी योगदान दे सकते हैं।<br/>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mt-5">
+              <div style="outline: none !important;">
+                <img src="https://navgurukul.org/assets/img/sensitisation.png" style="height:120px;"/>
+              </div>
+              <div class="slide-content mt-3" style="outline: none !important;">
+                <div class="mx-3">
+                  <h4 style="margin-bottom:10px;">संवेदीकरण &amp; जागरूकता (लिंग / पारिस्थितिकी / अर्थव्यवस्था आदि)</h4 style="margin-bottom:15px;">
+                  <div style="margin: 10px; margin-top: 20px;">
+                    आवश्यक कौशल: <b> मुद्दों की सुविधा / समझ - लिंग / पारिस्थितिकी / अर्थव्यवस्था आदि।</b><br/>
+                    समय प्रतिबद्धता: <b>2-10 घंटे</b><br/>
+                    स्थान: <b>रिमोट</b><br/><br/>
+                    उनकी सेमिनल बुक, हाफ द स्काई, निकोलस क्रिस्टोफ और शेरिल वूडन में तर्क दिया गया है कि दुनिया भर में 
+                    महिलाओं पर अत्याचार "वर्तमान युग की नैतिक चुनौती" है क्योंकि गुलामी 19 वीं सदी की थी। हमारी आधी आबादी 
+                    के अधिकारों और उपचार का हमारी पारिस्थितिकी और हमारी अर्थव्यवस्था के अधिकारों के साथ गहरा संबंध है। हमें 
+                    अपने छात्रों को न केवल प्रौद्योगिकी में प्रतिनिधित्व करने के लिए बल्कि दूसरों के अधिकारों के एक सहानुभूतिपूर्ण 
+                    धारक के रूप में मजबूत आवाज की आवश्यकता है। यदि आप अंतर्निहित पूर्वाग्रह प्रशिक्षण, लिंग भूमिकाओं के 
+                    क्षेत्रों में काम कर रहे हैं या स्थायी जीवित प्रथाओं में एक पृष्ठभूमि है, तो यह स्वैच्छिक अनुभव आपके लिए सही होगा। <br/>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mt-5">
+              <div style="outline: none !important;">
+                <img src="https://navgurukul.org/assets/img/marketing.png" style="height:120px;"/>
+              </div>
+              <div class="slide-content mt-3" style="outline: none !important;">
+                <div class="mx-3">
+                  <h4 style="margin-bottom:10px;">Marketing &amp; संचार</h4 style="margin-bottom:15px;">
+                  <div style="margin: 10px; margin-top: 20px;">
+                    आवश्यक कौशल: <b>चित्रण / वीडियो संपादन / डेटा विज़ुअलाइज़ेशन / लेखक / सोशल मीडिया</b><br/>
+                    समय प्रतिबद्धता: <b>कुल 40-80 घंटे</b><br/>
+                    स्थान: <b>रिमोट</b><br/><br/>
+                    नवगुरुकुल में हर छात्र लचीलापन और जिज्ञासा की कहानी है, जो सैकड़ों अन्य लड़कियों में प्रेरणा लेने की क्षमता 
+                    रखता है जो अपनी आर्थिक स्थिति या सामाजिक अपेक्षा के कारण खुद को प्रतिकूल परिस्थितियों में पाती हैं। इन 
+                    कहानियों को बताया जाना चाहिए और एक विपणन स्वयंसेवक के रूप में, आप हमें इन सबसे आगे लाने में मदद 
+                    कर सकते हैं। आप हमारी सोशल मीडिया उपस्थिति, ब्लॉग लिखने, हमारे पूर्व छात्रों का साक्षात्कार करने, और 
+                    अधिक समान विचारधारा वाले भागीदारों तक पहुँचने में हमारी सहायता कर सकते हैं। यदि आप एक इलस्ट्रेटर, 
+                    वीडियो निर्माता, डेटा विज़ुअलाइज़ेशन उत्साही हैं, या लिखना पसंद करते हैं - तो आप इस स्वयंसेवक की स्थिति 
+                    के लिए आवेदन करने के लिए स्वागत करते हैं।<br/>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mt-5">
+              <div style="outline: none !important;">
+                <img src="https://navgurukul.org/assets/img/curriculum.png" style="height:120px;"/>
+              </div>
+              <div class="slide-content mt-3" style="outline: none !important;">
+                <div class="mx-3">
+                  <h4 style="margin-bottom:10px;">पाठ्यक्रम डिजाइन और विकास</h4 style="margin-bottom:15px;">
+                  <div style="margin: 10px; margin-top: 20px;">
+                    आवश्यक कौशल: <b>Python / Javascript / NodeJs / ReactJS</b><br/>
+                    समय प्रतिबद्धता: <b>सप्ताह में 6-10 घंटे</b><br/>
+                    स्थान: <b>रिमोट</b><br/><br/>
+                    पाठ्यक्रम शिक्षण और सीखने का हमारा आधार है - विशेष रूप से दिए गए पाठ्यक्रम के लिए कोई शिक्षक नहीं 
+                    हैं। एक अच्छी तरह से डिज़ाइन किया गया पाठ्यक्रम नवगुरुकुल में दो प्राथमिक कारणों से एक मुख्य अंतर है। 
+                    एक - इसका उपयोग छात्रों द्वारा अन्य छात्रों और दो छात्रों को करने के लिए किया जाता है - क्योंकि वर्तमान 
+                    में प्रोग्रामिंग में उपलब्ध पाठ्यक्रम अंग्रेजी के स्तर को पूरा नहीं करते हैं जो हमारे छात्र समझने में सक्षम हैं। 
+                    हमारे स्व-डिज़ाइन किए गए पाठ्यक्रम भाषा को कोड को सीखने में बाधा नहीं बनने देते हैं और हिंदी और 
+                    अंग्रेजी के मिश्रण का उपयोग करते हुए लिखे जाते हैं। सभी पाठ्यक्रम खुले हैं और इसे 
+                    https://saral.navgurukul.org/ पर देखा जा सकता है। हम ऐसे प्रौद्योगिकीविदों की तलाश कर 
+                    रहे हैं जो भारत के लाखों छात्रों के लिए इसे सुलभ बनाने के लिए ज़मीन से प्रौद्योगिकी शिक्षा को देखने में 
+                    रुचि रखते हैं।<br/>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mt-5">
+              <div style="outline: none !important;">
+                <img src="https://navgurukul.org/assets/img/strategy.png" style="height:120px;"/>
+              </div>
+              <div class="slide-content mt-3" style="outline: none !important;">
+                <div class="mx-3">
+                  <h4 style="margin-bottom:10px;">Strategy डिजाइन और विकास</h4 style="margin-bottom:15px;">
+                  <div style="margin: 10px; margin-top: 20px;">
+                    आवश्यक कौशल: <b>परामर्श</b><br/>
+                    समय प्रतिबद्धता: <b>सप्ताह में 6-10 घंटे</b><br/>
+                    स्थान: <b>रिमोट</b><br/><br/>
+                    आप लाखों असंतुष्ट छात्रों को पसंद और आशा के बुनियादी ढांचे तक पहुंच कैसे प्रदान करते हैं? आप यह सुनिश्चित 
+                    कैसे करते हैं कि अरबों इंसानों को उन तकनीकों से दरकिनार न किया जाए जो उनके साथ नहीं बनी हैं? हमारा जवाब 
+                    एक आत्मनिर्भर संगठन बनाना है, जो लोगों द्वारा चलाए जा रहे हैं और उनकी सेवा के लिए है। पिछले तीन वर्षों के संचालन 
+                    में, हमने एक विकेन्द्रीकृत, आत्मनिर्भर संगठन में आने के लिए इसके सिर पर काम करने के सामान्य तरीकों को बदल दिया है। 
+                    हम भय परिवर्तन नहीं करते हैं, हम अपनी राय देते हैं और प्रयोग के लिए खुले हैं। यदि आप किसी ऐसे व्यक्ति हैं जो सिस्टम 
+                    सोच, समस्याओं के पैमाने पर काम करना पसंद करते हैं और चाहते हैं कि आपका काम अगली पीढ़ी के प्रौद्योगिकी निर्माताओं 
+                    पर प्रभाव डाले - तो हमें लगता है कि आपको नवगुरुकुल में चुनौतीपूर्ण समस्याएं मिलेंगी।<br/>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mt-5">
+              <div style="outline: none !important;">
+                <img src="https://navgurukul.org/assets/img/mentalHealth.png" style="height:120px;"/>
+              </div>
+              <div class="slide-content mt-3" style="outline: none !important;">
+                <div class="mx-3">
+                  <h4 style="margin-bottom:10px;">मानसिक स्वास्थ्य परामर्श</h4 style="margin-bottom:15px;">
+                  <div style="margin: 10px; margin-top: 20px;">
+                    आवश्यक कौशल: <b>काउंसिलिंग</b><br/>
+                    समय प्रतिबद्धता: <b>सप्ताह में 2-6 घंटे</b><br/>
+                    स्थान: <b>रिमोट</b><br/><br/>
+                    भारत में, 300k भारतीयों को कवर करने वाले एक मानसिक स्वास्थ्य व्यवसायी के साथ, मानसिक स्वास्थ्य 
+                    परामर्शदाताओं की पहुंच उन लोगों के प्रति बेहद कम है जो सेवाओं का खर्च उठा सकते हैं। हमारे छात्र 
+                    लचीला और प्रेरित व्यक्ति हैं जो सही सहायता के साथ जीवन के सभी क्षेत्रों में फलते-फूलते हैं। हम ऐसे 
+                    संगठनों / व्यक्तियों के साथ साझेदारी करना चाहते हैं, जो हमारे छात्रों के साथ बैचों में संवेदीकरण सत्र 
+                    आयोजित कर सकें, उन्हें जरूरत पड़ने पर मदद लेने के लिए शब्दावली और विकल्पों से लैस करने और 
+                    उनके मानसिक स्वास्थ्य की देखभाल करने के लिए कलंक को दूर करने के लिए।<br/>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mt-5">
+              <div style="outline: none !important;">
+                <img src="https://navgurukul.org/assets/img/life.png" style="height:120px;"/>
+              </div>
+              <div class="slide-content mt-3" style="outline: none !important;">
+                <div class="mx-3">
+                  <h4 style="margin-bottom:10px;">Life++</h4 style="margin-bottom:15px;">
+                  <div style="margin: 10px; margin-top: 20px;">
+                    आवश्यक कौशल: <b>मूवमेंट थेरेपी / थिएटर / आर्ट थेरेपी / कैरियर काउंसलिंग / पर्सनल फाइनेंस, आदि।</b><br/>
+                    समय प्रतिबद्धता: <b>सप्ताह में 2-6 घंटे</b><br/>
+                    स्थान: <b>रिमोट</b><br/><br/>                    
+                    आंदोलन चिकित्सा, थिएटर, योग, कला चिकित्सा, कैरियर परामर्श और व्यक्तिगत वित्त में रुचि रखने वाले 
+                    स्वयंसेवकों का छात्रों के साथ कार्यशालाओं के लिए विचारों का स्वागत करने के लिए स्वागत है। हम अपने 
+                    छात्रों को आंदोलन चिकित्सा सत्र ले चुके हैं और उन्हें महत्व दिया गया है। हमारे छात्र लचीला और प्रेरित 
+                    व्यक्ति हैं जो सही सहायता के साथ जीवन के सभी क्षेत्रों में फलते-फूलते हैं।<br/>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+            
+    </section>
+
+
+
+
+    <section class="footer-text mt-5">
+        <div class=" text-center footer bg-dark pt-2" >
+            <span>Start learning now at <a href="#" style="text-decoration: none;" class="text-danger">SARAL</a><br>
+                Website maintained by NavGurukul students</span>
+        </div>
+    </section>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
